@@ -1,4 +1,4 @@
-# NestPay Laravel (ver3)
+# Halkbank (NestPay) Laravel (ver3)
 
 Laravel helper for NestPay/Payten 3D Pay Hosting with Hash Version 3.
 
@@ -12,7 +12,7 @@ Add to your app's composer.json:
     { "type": "path", "url": "packages/nestpay-laravel" }
   ],
   "require": {
-    "martin/nestpay-laravel": "*"
+    "karadzinov/halkbank": "*"
   }
 }
 ```

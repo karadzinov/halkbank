@@ -1,6 +1,6 @@
 {
-  "name": "martin/nestpay-laravel",
-  "description": "Laravel package for NestPay (Asseco/Payten) ver3 3D Pay Hosting integration",
+  "name": "karadzinov/halkbank",
+  "description": "Laravel package for Halkbank (NestPay/Payten) ver3 3D Pay Hosting integration",
   "license": "MIT",
   "type": "library",
   "autoload": {
