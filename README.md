@@ -58,15 +58,15 @@ Configure credentials in `config/nestpay.php` or via `.env`.
 ## Required .env variables
 
 ```env
-NESTPAY_CLIENT_ID=180000260
-NESTPAY_STORE_KEY=SKEY0260
+NESTPAY_CLIENT_ID=your_client_id
+NESTPAY_STORE_KEY=your_store_key
 NESTPAY_STORE_TYPE=3D_PAY_HOSTING
 NESTPAY_CURRENCY=807
 NESTPAY_LANG=en
-NESTPAY_3D_POST_URL=https://torus-stage-halkbankmacedonia.asseco-see.com.tr/fim/est3Dgate
-NESTPAY_API_POST_URL=https://torus-hotfix.asseco-see.com.tr/fim/api
-NESTPAY_API_USERNAME=pilatesapi
-NESTPAY_API_PASSWORD=TEST68289301
+NESTPAY_3D_POST_URL=https://your-bank-domain/fim/est3Dgate
+NESTPAY_API_POST_URL=https://your-bank-domain/fim/api
+NESTPAY_API_USERNAME=your_api_username
+NESTPAY_API_PASSWORD=your_api_password
 
 # Optional helpers for local dev behind a tunnel
 # Set to your public https base (e.g., ngrok/Cloudflare Tunnel)
