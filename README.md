@@ -4,25 +4,10 @@ Laravel helper for NestPay/Payten 3D Pay Hosting with Hash Version 3.
 
 Packagist: https://packagist.org/packages/karadzinov/halkbank
 
-## Install (path repository)
-
-Add to your app's composer.json:
-
-```json
-{
-  "repositories": [
-    { "type": "path", "url": "packages/nestpay-laravel" }
-  ],
-  "require": {
-    "karadzinov/halkbank": "*"
-  }
-}
-```
-
-Then:
+## Install
 
 ```bash
-composer update
+composer require karadzinov/halkbank
 php artisan vendor:publish --tag=nestpay-config
 ```
 
