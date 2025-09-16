@@ -1,0 +1,27 @@
+{
+  "name": "martin/nestpay-laravel",
+  "description": "Laravel package for NestPay (Asseco/Payten) ver3 3D Pay Hosting integration",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Nestpay\\Laravel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Nestpay\\Laravel\\NestpayServiceProvider"
+      ],
+      "aliases": {
+        "Nestpay": "Nestpay\\Laravel\\Facades\\Nestpay"
+      }
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-curl": "*"
+  }
+}
+
+
